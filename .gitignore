@@ -7,19 +7,54 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+.next/
+out/
+
+# Local env files
+.env
+.env.*.local
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.env
+
+# Mac system files
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Linux system files
+*~
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache
+.npm/
+.pnpm-store/
+
+# Turborepo
+.turbo/
+
+# Vercel
+.vercel/
+
+# Storybook
+storybook-static/
+
+# Coverage
+coverage/
