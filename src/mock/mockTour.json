@@ -1,0 +1,36 @@
+{
+	"id": "mock-tour-001",
+	"title": "Welcome to Your First Tour",
+	"steps": [
+		{
+			"id": "step-1",
+			"selector": "#hero-title",
+			"title": "Welcome!",
+			"content": "This tour will guide you through the main parts of this website."
+		},
+		{
+			"id": "step-2",
+			"selector": "#cta-button",
+			"title": "Start Here",
+			"content": "Click this button when you're ready to begin."
+		},
+		{
+			"id": "step-3",
+			"selector": ".feature-card",
+			"title": "Features",
+			"content": "Here are some of the cool features available to you."
+		},
+		{
+			"id": "step-4",
+			"selector": "#pricing-section",
+			"title": "Pricing",
+			"content": "Choose the plan that best fits your needs."
+		},
+		{
+			"id": "step-5",
+			"selector": "footer",
+			"title": "You're All Set",
+			"content": "That's the end of this demo tour. Enjoy exploring!"
+		}
+	]
+}
